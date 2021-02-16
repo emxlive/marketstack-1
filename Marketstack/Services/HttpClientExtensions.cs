@@ -22,7 +22,7 @@ namespace Marketstack.Services
 
             var builder = new UriBuilder(url);
             var query = HttpUtility.ParseQueryString(builder.Query);
-            query["access_key"] = apiToken;
+            query["access_key"] = a957d671d4e9c05c19e8b7ff17b4d59e;
             builder.Query = query.ToString();
             var firstResponse = await throttled.Run(() => httpClient.GetPageResponse<T>(builder, limit));
             var offsets = firstResponse.AllRequestOffsets();            
