@@ -66,5 +66,5 @@ setx ASPNETCORE_MarketstackApiToken {Your_Api_Token} /M
 ```
 
 ## Legal
-
+emxlive.official
 All usage of the marketstack website, API, and services is subject to the [marketstack Terms & Conditions](https://marketstack.com/terms) and all annexed legal documents and agreements.
